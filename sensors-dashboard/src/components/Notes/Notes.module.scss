@@ -1,0 +1,37 @@
+.note {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  flex-grow: 1;
+  color: #3d3d3d;
+  height: 100%;
+
+  .textarea {
+    width: 100%;
+    height: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+
+    .button {
+      background-color: white;
+      border: 1px solid #d6d6d6;
+      padding: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:active {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}

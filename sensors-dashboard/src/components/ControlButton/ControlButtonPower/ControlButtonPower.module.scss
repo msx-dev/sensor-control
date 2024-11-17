@@ -1,0 +1,23 @@
+@import "/src/styles/theme.scss";
+
+.button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  color: $green;
+  font-size: 18px;
+}
+
+.iconOff {
+  color: $red;
+}
+
+.iconDisabled {
+  color: rgb(189, 189, 189);
+}

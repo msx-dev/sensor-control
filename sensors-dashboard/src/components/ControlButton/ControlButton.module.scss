@@ -1,0 +1,13 @@
+.button {
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+
+  transition: all 0.2s ease;
+
+  &:focus {
+    outline: none;
+  }
+}

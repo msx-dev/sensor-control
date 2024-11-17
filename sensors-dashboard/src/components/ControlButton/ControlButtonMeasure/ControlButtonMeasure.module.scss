@@ -1,0 +1,19 @@
+@import "/src/styles/theme.scss";
+
+.button {
+  width: 160px;
+  height: 40px;
+  border-radius: 12px;
+  color: $accent;
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled {
+  color: rgb(223, 223, 223);
+  background-color: rgb(240, 240, 240);
+  cursor: not-allowed;
+}
